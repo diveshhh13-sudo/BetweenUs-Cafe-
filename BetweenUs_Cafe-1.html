@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BetweenUs Cafe | It's Between Us</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;scroll-behavior:smooth}
+body{font-family:Arial,sans-serif;background:#f7f1e8;color:#2d211b}
+nav{position:fixed;top:0;width:100%;padding:18px 7%;display:flex;justify-content:space-between;align-items:center;background:#2d211bf5;z-index:10}
+.logo{color:#fff;font-size:25px;font-weight:bold}.logo span{color:#d9a86c}
+nav ul{display:flex;gap:28px;list-style:none}nav a{color:#fff;text-decoration:none;font-size:14px}nav a:hover{color:#d9a86c}
+.hero{height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff;padding:20px;background:linear-gradient(#21160a99,#21160ab3),url("https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=2000&q=85") center/cover}
+.hero h1{font-size:clamp(55px,9vw,100px);letter-spacing:4px}.hero p{font-size:25px;font-style:italic;margin:10px 0 30px}
+.btn{display:inline-block;background:#d9a86c;color:#2d211b;padding:13px 27px;border-radius:30px;text-decoration:none;font-weight:bold}
+section{padding:90px 8%}.title{text-align:center;font-size:38px;margin-bottom:12px}.sub{text-align:center;color:#765f50;margin-bottom:40px}
+.about{max-width:850px;text-align:center;margin:auto}.about p{font-size:18px;color:#5c493e}
+.menu{background:#fffaf3}.grid{max-width:1100px;margin:auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:22px}
+.card{background:#fff;padding:28px;border-radius:18px;text-align:center;box-shadow:0 8px 25px #2d211b14;transition:.3s}.card:hover{transform:translateY(-7px)}.emoji{font-size:42px}.card h3{margin:12px 0 6px;font-size:22px}.card p{color:#765f50;font-size:14px}
+.special{background:#2d211b;color:#fff;text-align:center}.special-box{max-width:720px;margin:auto;padding:50px 25px;border:1px solid #d9a86c;border-radius:25px}.special h2{font-size:42px;color:#d9a86c;margin-bottom:15px}.special p{font-size:18px;color:#eee}
+.gallery{max-width:1100px;margin:auto;display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.gallery img{width:100%;height:250px;object-fit:cover;border-radius:18px}
+.location,.contact{text-align:center}.location p,.contact p{font-size:18px;color:#5c493e;margin:12px}.phone{font-size:26px!important;font-weight:bold;color:#8c5e32!important}
+footer{background:#2d211b;color:#fff;text-align:center;padding:35px 20px}footer h2{color:#d9a86c;margin-bottom:8px}footer p{color:#ddd;font-size:14px}
+@media(max-width:700px){nav{padding:15px 5%}.logo{font-size:19px}nav ul{gap:10px}nav a{font-size:11px}.hero p{font-size:20px}.gallery{grid-template-columns:repeat(2,1fr)}.gallery img{height:180px}section{padding:70px 6%}.title{font-size:31px}}
+</style>
+</head>
+<body>
+<nav>
+<div class="logo">Between<span>Us</span> Cafe</div>
+<ul><li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#menu">Menu</a></li><li><a href="#contact">Contact</a></li></ul>
+</nav>
+
+<section class="hero" id="home">
+<div><h1>BetweenUs</h1><p>It's Between Us.</p><a class="btn" href="#menu">Explore Our Menu</a></div>
+</section>
+
+<section id="about">
+<div class="about">
+<h2 class="title">About BetweenUs</h2><p class="sub">More than just a café.</p>
+<p>BetweenUs Cafe is a cosy space created for good food, meaningful conversations and unforgettable moments. Whether you're meeting your friends, spending time with someone special or simply enjoying your own company, BetweenUs is where every moment feels a little more special.</p><br>
+<p><b>Come for the food. Stay for the conversations. Leave with memories.</b></p>
+</div>
+</section>
+
+<section class="menu" id="menu">
+<h2 class="title">Our Menu</h2><p class="sub">Something delicious for everyone.</p>
+<div class="grid">
+<div class="card"><div class="emoji">🍕</div><h3>Pizza</h3><p>Cheesy, fresh and loaded with flavour.</p></div>
+<div class="card"><div class="emoji">☕</div><h3>Coffee</h3><p>Perfect coffee for every conversation.</p></div>
+<div class="card"><div class="emoji">🍔</div><h3>Burgers</h3><p>Juicy, cheesy and seriously satisfying.</p></div>
+<div class="card"><div class="emoji">🍹</div><h3>Mojito</h3><p>Refreshing drinks for refreshing moments.</p></div>
+<div class="card"><div class="emoji">🍟</div><h3>Fries</h3><p>Crispy, golden and impossible to share.</p></div>
+<div class="card"><div class="emoji">🥤</div><h3>Shakes</h3><p>Thick, creamy and full of flavour.</p></div>
+<div class="card"><div class="emoji">🍰</div><h3>Desserts</h3><p>A sweet ending to every visit.</p></div>
+</div>
+</section>
+
+<section class="special">
+<div class="special-box"><h2>BetweenUs Special ⭐</h2><p>Our signature creation, made specially for the BetweenUs experience.</p><br><a class="btn" href="#contact">Ask Us About It</a></div>
+</section>
+
+<section>
+<h2 class="title">The BetweenUs Vibe</h2><p class="sub">Good food. Good people. Good moments.</p>
+<div class="gallery">
+<img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=800&q=85">
+<img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=85">
+<img src="https://images.unsplash.com/photo-1579684947550-22e945225d9a?auto=format&fit=crop&w=800&q=85">
+<img src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=800&q=85">
+</div>
+</section>
+
+<section class="location">
+<h2 class="title">Find Us</h2><p>📍 Global City, Virar West, Maharashtra</p>
+<a class="btn" href="https://www.google.com/maps/search/?api=1&query=Global+City+Virar+West" target="_blank">Open in Google Maps</a>
+</section>
+
+<section class="contact" id="contact">
+<h2 class="title">Let's Connect</h2><p>Have a question or want to know more?</p><p class="phone">📞 9833370672</p><br>
+<a class="btn" href="tel:9833370672">Call Us</a>
+</section>
+
+<footer><h2>BetweenUs Cafe</h2><p>It's Between Us.</p><br><p>Good Food. Great Conversations. Better Memories.</p><br><p>© 2026 BetweenUs Cafe. All Rights Reserved.</p></footer>
+</body>
+</html>
